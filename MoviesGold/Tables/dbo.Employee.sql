@@ -6,7 +6,7 @@ CREATE TABLE [dbo].[Employee] (
 		[EmployeeId]     [int] NOT NULL,
 		[FirstName]      [varchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[LastName]       [varchar](30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
-		[SSN]            [char](9) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+		[SSN]            [char](11) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[Phone]          [char](10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[Address]        [varchar](40) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[City]           [varchar](30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
